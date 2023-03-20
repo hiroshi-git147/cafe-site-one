@@ -1,0 +1,147 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  line-height: 1.3;
+  font-family: "Montserrat", sans-serif;
+}
+
+.light-font {
+  font-weight: bold;
+}
+
+body {
+  potision: relative;
+}
+
+header {
+  margin: 0 19%;
+  position: sticky;
+  top:0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header .page-logo {
+  font-size: 42px;
+  font-weight: 900;
+}
+
+.header .page-logo small {
+  font-size: 18px;
+  margin-left: -.5rem;
+}
+
+.header .header-top-nav {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0 0 -1.5rem;
+}
+
+.header .header-top-nav li {
+  margin-left: .5rem;
+}
+
+.main-nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-nav ul li {
+  position: relative;
+}
+
+.main-nav ul li a {
+  font-size: 16px;
+}
+
+.daily-coffee-service {
+  display: block;
+  color: red;
+  border: 1px solid red;
+/*   padding: .1rem .2rem; */
+  margin-top: -.5rem
+}
+
+#header-nav-child {
+  margin: 0 20%; 
+  background-color: black;
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  height: 25px;
+  width: 100vw;
+  right: -937px;
+  transition: all 0.25;
+  visibility: hidden;
+}
+
+#header-nav-child li a {
+  color: white;
+  font-size: bold;
+}
+
+main {
+  height: 500px;
+  margin: 50px 5%;
+}
+
+main h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+
+.store-image {
+  background-color: grey;
+  height: 200px;
+}
+
+.items li h4 {
+  text-align: center;
+  margin: .5rem 0 1.3rem;
+}
+
+.items li > p {
+  padding: 0 1rem;
+  text-align: left;
+  color: grey;
+  opacity: .9;
+}
+
+.items li article {
+  margin: 1.5rem 0;
+  height: 300px;
+  background-color: black;
+  padding: .5rem .7rem; 
+}
+
+.items li article p {
+  color: white;
+}
+
+.items li .machine-info {
+  margin-top: -25px;
+  height: 200px;
+}
+
+.items li .machine-info .machines {
+  display: grid;
+  row-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.items li .other-infos {
+  margin-top: -25px;
+  height: 60px;
+}
+
